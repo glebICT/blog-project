@@ -1,0 +1,17 @@
+header{
+    background-color:rgb(204,229,255);
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    background-color: rgb(204,204,255);
+}
+header div{
+    display: flex;
+    background-color: rgb(229,204,255);
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(255,204,229);
+    }
+}
