@@ -1,0 +1,33 @@
+header{ 
+    background-color: rgb(200, 165, 232);
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  body {
+    background-color: rgb(181, 204, 231); 
+ }
+  header div{
+    display: flex;
+    background-color: rgb(102, 185, 193);
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+       background-color: bisque; 
+    }
+  }
+h1{
+  color: rgb(57, 25, 87);
+  font-size: 55px;
+}
+h2{
+  color: rgb(18, 47, 82);
+  font-size: 30px;
+}
+h3{
+  width: 800px;
+  text-align: center;
+}
+article{
+  display: flex;
+}
