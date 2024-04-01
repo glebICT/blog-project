@@ -1,0 +1,27 @@
+header img{
+ width: 500px;
+ height:100;
+
+
+    
+}
+header{
+ background-color: rgb(255, 255, 255);
+display: flex;
+}
+
+article{
+    img{
+     width: 200px;
+    }
+}
+
+h1{
+    font-style: italic;
+}
+
+    
+
+.motto{
+    font-size: 50px;
+}
