@@ -1,0 +1,52 @@
+
+body{
+    margin: 0;
+    background-color:#7FD576;
+}
+header,footer{
+    background: #CC76D5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    gap: 1rem;
+}
+.logo img{
+    width: 5rem;
+    padding: 0 1rem;
+}
+nav{
+    padding: 1rem;
+}
+.motto{
+    font-size: 1rem;
+    font-family: Candara;
+}
+article{
+    border: 1px solid gray;
+    display: flex;
+    padding: 1rem;
+}
+article picture img{
+    max-width: 400px;
+}
+article .content{
+    display: block;
+    padding: 10px;
+    font-family:Candara;
+}
+h1{
+    display: flex;
+    align-self: center;
+    font-family: Candara;
+}
+@media screen and (width < 500px) {
+    header{
+        flex-direction: column;
+    }
+}

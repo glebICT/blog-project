@@ -1,0 +1,74 @@
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    --my-gray: rgb(153, 182, 4);
+    --my-layout: flex;
+}
+header {
+    background-color: gray;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 65px;
+}
+.mydiv {
+    text-align: center;
+    background-color: rgb(228, 227, 227);
+}
+.nodiv {
+    text-align: left;
+}
+article{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+p3 {
+    font-style:italic;
+}
+.thediv {
+    text-align: left;
+}
+.thel {
+    text-align: left;
+    background-color: rgb(198, 197, 197);
+}
+.thehdiv {
+    background-color: gray;
+    text-align: center;
+    font-style: italic;
+    display: flex;
+    margin: auto;
+    width: 1000px;
+}
+.help {
+    background-color: white;
+}
+.second {
+    background-color: gray;
+    text-align: center;
+    justify-content: center;
+}
+.gallery {
+    background-color: rgb(162, 162, 162);
+    justify-content: center;
+}
+.boat_sunset {
+    display: var(--my-layout);
+    margin-left: auto;
+    width: 500px;
+    background-color: var(--my-gray);
+}
+.gamedev {
+    display: var(--my-layout);
+    margin: auto;
+    width: 200px;
+    background-color: var(--my-gray);
+}
+.youtube {
+    display: var(--my-layout);
+    margin-top: auto;
+    width: 890px;
+    background-color: var(--my-gray);
+}
