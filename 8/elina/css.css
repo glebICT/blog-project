@@ -1,13 +1,28 @@
-
+:root{
+--purple:#7942BD;
+--green:#42BD79;
+--pink:#BD7942;
+--black:#313131;
+--font:Candara;
+--size: 25px;
+}
 body{
     margin: 0;
-    background-color:#7FD576;
+    background-color:var(--purple)
 }
-header,footer{
-    background: #CC76D5;
+header{
+    background:var(--green);
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+button{
+    background-color: var(--pink);
+    border:none;
+    text-align: center;
+    padding: 2px;
+    font-size: 20px;
+    font-family: var(--font)
 }
 main{
     width: 80%;
@@ -16,6 +31,15 @@ main{
     margin: 1rem auto;
     gap: 1rem;
 }
+footer{
+    display: flex;
+    justify-content:right;
+    align-self:flex-end;
+    background: var(--green);
+    font-family: var(--font);
+    font-size: var(--size);
+
+}
 .logo img{
     width: 5rem;
     padding: 0 1rem;
@@ -23,14 +47,21 @@ main{
 nav{
     padding: 1rem;
 }
+a:link{
+    color: var(--black);
+}
+a:visited{
+    color:var(--black)
+}
 .motto{
-    font-size: 1rem;
-    font-family: Candara;
+    font-size: var(--size);
+    font-family:var(--font);
 }
 article{
     border: 1px solid gray;
     display: flex;
     padding: 1rem;
+    background-color: var(--green);
 }
 article picture img{
     max-width: 400px;
@@ -38,12 +69,18 @@ article picture img{
 article .content{
     display: block;
     padding: 10px;
-    font-family:Candara;
+    font-family: var(--font);
+    font-size: var(--size);
+
 }
 h1{
     display: flex;
     align-self: center;
-    font-family: Candara;
+    font-family: var(--font);
+    font-size: 50px;
+}
+h2{
+    text-decoration: underline var(--pink) 5px;
 }
 @media screen and (width < 500px) {
     header{

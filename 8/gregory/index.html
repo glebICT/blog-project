@@ -2,79 +2,183 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <header>
+        <h1>Quantum States</h1>
+        <p></p>
+    </header>
+
+    <nav>
+        <a href="#state">State Vector</a>
+        <a href="#superposition">Superposition</a>
+        <a href="#normalization">Normalization</a>
+        <a href="#hermitian">Hermitian Operators</a>
+        <a href="#observables">Observables</a>
+        <a href="#eigenstates">Eigenstates and Eigenvalues</a>
+        <a href="#example">Example of the mathematical representation of a qubit in superposition</a>
+        <a href="#aside">Recent posts</a>
+        <a href="footer">Footer</a>
+    </nav>
+    <img src="Bloch_sphere.svg.png">
 
 
 
-  <header class="header">
-    <h1>Quantum Application</h1>
-  </header>
+    <div class="container">
+        <main>
+            <article>
+                <h1>The main idea in Quantum states:</h1>
+                <p class="post-meta">
 
-  <div class="row">
-    <main class="leftcolumn">
-      <article class="card">
-        <h2>Qubit basis states</h2>
-        <h5>Single-qubit computational basis states</h5>
-        <img src="1534934969-blochspphere.jpg">
-        <div class="navbar">
-          <a href="#1" class="active">1</a>
-          <a href="#2">2</a>
-          <a href="#3">3</a>
+                </p>
+                <p></p>
+            </article>
+
+            <article id="state">
+                <h2>State Vector</h2>
+                <p class="post-meta">
+
+                </p>
+                <p>
+                    A quantum state is typically represented by a state vector, often denoted as ∣ψ⟩, where ψ represents
+                    the quantum state. This vector encapsulates all the information about the quantum system.
+                </p>
+            </article>
+
+            <article id="superposition">
+                <h2>Superposition</h2>
+                <p class="post-meta">
+
+                </p>
+                <p>
+                    Quantum states can exist in superpositions, which means they can be a combination of multiple states
+                    simultaneously. For example, a quantum bit or qubit can be in a superposition of both ‘0’ and ‘1’
+                    states.
+                </p>
+            </article>
+
+            <article id="normalization">
+                <h2>Normalization</h2>
+                <p class="post-meta">
+                    Quantum states must be normalized, which ensures that the sum of probabilities of all possible
+                    outcomes equals one. This normalization constraint is essential for interpreting quantum states
+                    probabilistically.
+                </p>
+                <!-- <p> 
+                    smth
+                </p> -->
+            </article>
+
+            <!--<article> 
+                <h2></h2> 
+                <p class="post-meta"> 
+                    
+                </p> 
+                <p> 
+                     
+                </p> 
+            </article> -->
+        </main>
+        <header>
+            <h1>The Quantum Operators</h1>
+            <p>Below is written the main information about the basis of quantum operators. And what are its types. </p>
+        </header>
+        <div>
+        <img src="hq720.jpg">
+       
+        <img src="main-qimg-84e850634905612655a3035e8aa371d4-pjlq.jpg">
         </div>
-        <p>
-          ψ=α∣0⟩+β∣1⟩
-          A general -pure- qubit state is expressed as:
-          
+        <div class="container">
+            <main>
+                <article>
+                    <h1>The main idea in Operaters:</h1>
+                    <p class="post-meta">
+
+                    </p>
+                    <p></p>
+                </article>
+
+                <article id="hermitian">
+                    <h2>Hermitian Operators</h2>
+                    <p class="post-meta">
+
+                    </p>
+                    <p>
+                        These are a special class of operators that play a crucial role in quantum mechanics. They have
+                        a property called Hermiticity, which ensures that their eigenvalues are real, making them
+                        suitable for measuring physical quantities.
+                    </p>
+                </article>
+
+                <article id="observables">
+                    <h2>Observables</h2>
+                    <p class="post-meta">
+
+                    </p>
+                    <p>
+                        Operators represent observables in quantum mechanics. For instance, the position of a particle
+                        is represented by the position operator, X, while momentum is represented by the momentum
+                        operator, P.
+                    </p>
+                </article>
+
+                <article id="eigenstates">
+                    <h2>Eigenstates and Eigenvalues</h2>
+                    <p class="post-meta">
+                        When an operator acts on a quantum state, it may produce a new state. The new state, if it
+                        exists, is an eigenstate of the operator, and the corresponding value is its eigenvalue.
+                        Eigenstates are crucial for measuring observables.
+                    </p>
+                    <!-- <p> 
+                    smth
+                </p> -->
+                </article>
+
+                <!--<article> 
+                <h2></h2> 
+                <p class="post-meta"> 
+                    600#450
+                    685#385
+                </p> 
+                <p> 
+                     
+                </p> 
+            </article> -->
+
+                <article id="example">
+                    <h2>Example of the mathematical representation of a qubit in superposition: </h2>
+                    <p class="post-meta">
+
+                    </p>
+                    <p>
+                        ∣ψ⟩=α∣0⟩+β∣1⟩
+
+                    <p>Here, α and β are complex numbers that determine the probability amplitudes of measuring the
+                        qubit in the ∣0⟩ and ∣1⟩ states.</p>
+                    </p>
+                </article>
+            </main>
+
+            <aside id="aside">
+                <h2>Recent Posts</h2>
+                <ul>
+                    <li><a href="#">previous 1</a></li>
+                    <li><a href="#">previous 2</a></li>
+                    <li><a href="#">previous 3</a></li>
+                    <li><a href="#">previous 4</a></li>
+                </ul>
+            </aside>
+        </div>
 
 
-          ψ=α∣0⟩+β∣1⟩
-
-          where
-
-          α and
-
-          β are the complex probability amplitudes for each basis state. Note that the choice of basis states is
-          arbitrary, each set of orthogonal states can be used as basis states.
-
-        </p>
-      </article>
-      <article class="card">
-        <h2></h2>
-        <h4>
-        </h4>
-        <h5></h5>
-        <div style="height:200px;"></div>
-        <p></p>
-      </div>
-    </main>
-    <article class="rightcolumn">
-      <div class="card">
-        <h2></h2>
-        <div class="" style="height:100px;"></div>
-        <p></p>
-      </div>
-      <article class="card">
-        <h3></h3>
-
-      </div>
-      <article class="card">
-        <h3></h3>
-        <p></p>
-      </div>
-    </div>
-  </div>
-
-  <footer class="footer">
-    <h2>Footer</h2>
-  </footer>
-
-
+        <footer id="footer">
+            <p>Author: Shorin Gregory</p>
+        </footer>
 </body>
 
 </html>

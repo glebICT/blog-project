@@ -1,72 +1,82 @@
-body {
-    background-color: aliceblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #97BC62;
+    color: #edf5e1 ;
+    
+    
+} 
 
-  }
-
-
-
-  h2 {
-
-    font-size: 3rem;
-    text-align: center;
-  }
-
-  h1 {
-
-    font-size: 4rem;
-    text-align: center;
-  }
-
-  p {
+header { 
+    background-color: #2C5F2D; 
+    color: #edf5e1; 
+    text-align: center; 
+    width: auto;
+    height:fit-content;
+} 
 
 
-    font-size: 1.2rem;
+nav { 
+    background-color: #2C5F2D ; 
+    padding: 10px; 
+    
+} 
+
+nav a { 
+    color: #edf5e1; 
+    background-color: #2C5F2D ;
+    text-decoration: solid; 
+    padding: 10px; 
+    margin-right: 10px; 
+    display: inline-block; 
+    
+} 
+
+.container { 
+    display: flex; 
+    justify-content: space-between; 
+    max-width: 95%; 
+    margin: 0 auto; 
+    padding: 20px; 
+} 
+
+article p { 
+    text-align: justify; 
+    width: auto;
+    height: auto;
+} 
+
+main { 
+    flex: 2; 
+
+} 
+
+article { 
+    margin-bottom: 20px; 
+    padding: 10px 20px; 
+    border: 1px solid rgb(145, 145, 145); 
+    margin-right: 10px; 
+    background-color: #2C5F2D;
+    width: auto;
+    height: auto;
+} 
+
+aside { 
+    flex: 1; 
+    background-color: #31473A; 
+    padding: 10px; 
+    color: #edf5e1;
    
-    display: flex;
-    align-items: center;
-    justify-content: center;
+} 
 
-  }
-
-  h5 {
-    font-size: 1.5rem;
-  }
-
-  img {
-    float: left;
-  
-  }
-  .navbar {
-    background-color: #333;
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  
-  
-  .navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-
-  .navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  
-  .navbar a.active {
-    background-color: #838383;
-    color: white;
-  }
-  footer{
-
-  }
+footer { 
+    background-color: #31473A; 
+    color: #edf5e1; 
+    text-align: center; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+} 
+div{
+   margin-left: 1rem;
