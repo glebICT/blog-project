@@ -1,5 +1,12 @@
 article{
+    font-size: 2rem;
     img{
         height: 300px;
     }
+}
+
+
+body {
+    background-color:antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

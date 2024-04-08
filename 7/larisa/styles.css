@@ -1,0 +1,75 @@
+header {
+    background-color: rgb(31, 31, 31);
+    font-size: 4rem;
+    color: #000000;
+    padding: 2rem;
+
+    background-image: url(Top-10-Sci-Fi-Movies-of-All-Time-e1650631903589.webp);
+width: ;
+height: ;
+}
+
+body {
+    background-color: #141414;
+    font-family:cursive;
+
+
+
+}
+header div {
+       display: flex;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    gap: 120px;
+
+    article {
+        display: flex;
+        color: rgb(255, 160, 212);
+
+        img {
+            height: 500px;
+        }
+    }
+}
+.larisa{
+    color: rgb(160, 0, 0);
+
+}
+
+.Fight{
+    color: rgb(212, 64, 146);
+}
+
+.Shining{
+    color: rgb(209, 212, 30);
+}
+
+.Silence{
+    color: rgb(241, 73, 73);
+}
+
+.Shinings{
+    color: #ffee8b;
+}
+
+
+.Green{
+    color: rgb(0, 153, 64);
+}
+
+.Mile{
+    color: rgb(97, 214, 132);
+}
+
+.Goldfinch{
+    color: rgb(204, 137, 49);
+}
+
+.Gold{
+    color:rgb(248, 185, 103);
+}
