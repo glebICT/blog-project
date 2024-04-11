@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("koro.jpg");
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background-color: #fff;
+}
+h1 {
+    color: #333;
+}
+h2 {
+    color: #555;
+}
+p {
+    line-height: 1.6;
+}
+.nav-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.nav-buttons button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.nav-buttons button:hover {
+    background-color: #555;
+}
