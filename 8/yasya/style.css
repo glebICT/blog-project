@@ -1,18 +1,26 @@
 header{
-    background-color: aqua;
+    background-color: rgb(229, 216, 207);
     display:flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 body{
-    background-color: antiquewhite;
+    background-color: rgb(251, 237, 220);
+
 }
 header div{
     display:flex;
-    background-color: rgb(232, 175, 171);
+}
+article{
+    width: 500px;
+    margin: auto;
 }
 @media only screen and (max-width:600px){
     body {
-    background-color: pink;
+    background-color: rgb(244, 196, 203);
+     }
+     article{
+        width: 100%;
      }
 }
 .flex-container {
