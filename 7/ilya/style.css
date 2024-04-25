@@ -1,6 +1,7 @@
 body{
-    background: red;
+    background: rgb(22, 185, 185);
 }
 article{
-    border: 1px solid yellow;
+    border: 100px solid blueviolet;
+    
 }
