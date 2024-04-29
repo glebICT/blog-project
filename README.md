@@ -55,9 +55,7 @@ Aditional point will be added for adaptive layout
                 <td class="s6" dir="ltr"></td>
             </tr>
             <tr style="height: 20px">
-                <th id="1539597594R2" style="height: 20px;" class="row-headers-background">
-                    <div class="row-header-wrapper" style="line-height: 20px"></div>
-                </th>
+    
                 <td class="s2"></td>
                 <td class="s2"></td>
                 <td class="s7"></td>
