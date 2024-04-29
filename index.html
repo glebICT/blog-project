@@ -1,31 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
-     <style>
-        html{
+    <style>
+        html {
             color-scheme: light dark;
             font-family: system-ui;
         }
-        ul{ list-style: none; display: flex; justify-content: space-evenly; padding-inline-start: 0;}
-        h1, p{
+
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            padding-inline-start: 0;
+        }
+
+        h1,
+        p {
             text-align: center
+        }
+
+        .rit {
+            width: 60%;
+            margin: auto;
+            display: flex;
+        }
+
+        .rit table {
+            border-collapse: collapse;
+
+        }
+    
+        th,
+        td {
+            border: 1px solid;
+            padding: 1rem;
         }
     </style>
 </head>
+
 <body>
-     <h1>Blog layout project</h1>
+    <h1>Blog layout project</h1>
+
     <p>
         <a href="https://github.com/glebICT/blog-project">Source code</a>
     </p>
     <ul>
-        <li><h2>7 grade</h2>
+        <li>
+            <h2>7 grade</h2>
             <ol>
                 <li><a href="./7/alice/">Alice - Most Popular Recipes of Belarussian Food</a></li>
                 <li><a href="./7/MARIOAME/">Mariam - Band blog Type of negative</a></li>
-                <li><a href="./7/misha/" >Michael - Table tennis blog</a></li>
+                <li><a href="./7/misha/">Michael - Table tennis blog</a></li>
                 <li><a href="./7/wareef/">Wareef - Blog about good places in Saudi Arabia</a></li>
                 <li><a href="./7/ilya/">Ilya - Blog about games</a></li>
                 <li><a href="./7/eva/">Eva - Anime movies<a></li>
@@ -43,7 +72,8 @@
                 <li><a href="./7/sofia_k/">Sofia K. - Cats</a></li>
             </ol>
         </li>
-        <li><h2>8 grade</h2>
+        <li>
+            <h2>8 grade</h2>
             <ol>
                 <li><a href="./8/ali-kemal/">Ali-Kemal - Georgian cities during winter time</a></li>
                 <li><a href="./8/elizabeth/">Elisabeth - Traveling blog</a></li>
@@ -51,7 +81,7 @@
                 <li><a href="./8/nikolas">Nikolas - Blog about shawarmas</a></li>
                 <li><a href="./8/evelina/">Evelina - Dota 2 levels</a></li>
                 <li><a href="./8/gregory/">Gregory - Particle physics blog</a></li>
-                <li><a href="./8/emil/">Emil - Blog about METAL GEAR SOLID</a></li>  
+                <li><a href="./8/emil/">Emil - Blog about METAL GEAR SOLID</a></li>
                 <li><a href="./8/sofia/">Sofia - ?</a></li>
                 <li><a href="./8/georgi/">Georgi - Football players</a></li>
                 <li><a href="./8/matvey/">Matvey - Travel blog</a></li>
@@ -67,5 +97,48 @@
             </ol>
         </li>
     </ul>
+    <div class="rit">
+        <table>
+     
+            <tbody>
+                <tr >
+                    <th class="s1" dir="ltr" colspan="5"><h3>Blog layout rubric<h3></th>
+                </tr>
+      
+                <tr >
+                    <td class="s10" dir="ltr"></td>
+                    <th class="s10" dir="ltr">Needs Improvement</th>
+                    <th class="s10" dir="ltr">Approaching Expectations</th>
+                    <th class="s10" dir="ltr">Meets Expectations</th>
+                    <th class="s10" dir="ltr">Exceeds Expectations</th>
+                </tr>
+                <tr >
+                    <th class="s12" dir="ltr" >Project <br>Structucture</th>
+                    <td class="s13" dir="ltr">Files are organised in on directory with meaningful names</td>
+                    <td class="s13" dir="ltr">HTML and CSS are stored in separate files</td>
+                    <td class="s13" dir="ltr">HTML using semantic elements such as header, main, article, footer</td>
+                    <td class="s13" dir="ltr">Using CSS variable</td>
+                </tr>
+                
+                <tr >
+                    <th class="s12" dir="ltr" >Design</th>
+                    <td class="s13" dir="ltr">Readability <br>(Font size, contrast)</td>
+                    <td class="s13" dir="ltr">Information Hierarchy <br>(white space, text highligting)</td>
+                    <td class="s13" dir="ltr">Color Scheme</td>
+                    <td class="s13" dir="ltr">Animations</td>
+                </tr>
+                <tr >
+                    <th class="s12" dir="ltr">Content</th>
+                    <td class="s13" dir="ltr">Content of webpage contains meaningful information</td>
+                    <td class="s13" dir="ltr">Content doesn't contain any grammar and syntax errors</td>
+                    <td class="s13" dir="ltr">Content adapted for wide and small screens</td>
+                    <td class="s13" dir="ltr">Blog contains more then 3 articles</td>
+                </tr>
+              
+
+            </tbody>
+        </table>
+    </div>
 </body>
+
 </html>
