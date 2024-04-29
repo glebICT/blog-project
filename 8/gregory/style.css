@@ -4,34 +4,45 @@ body {
     padding: 0; 
     background-color: #97BC62;
     color: #edf5e1 ;
-    
-    
 } 
 
 header { 
-    background-color: #2C5F2D; 
-    color: #edf5e1; 
+    
+    color: #31473A; 
     text-align: center; 
     width: auto;
     height:fit-content;
+    
 } 
 
 
 nav { 
-    background-color: #2C5F2D ; 
+ 
     padding: 10px; 
-    
 } 
 
 nav a { 
     color: #edf5e1; 
-    background-color: #2C5F2D ;
+    
     text-decoration: solid; 
     padding: 10px; 
     margin-right: 10px; 
     display: inline-block; 
-    
 } 
+.btn {
+  background-color: #31473A;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: #3e8e41;
+  color: white;
+}
 
 .container { 
     display: flex; 
@@ -39,6 +50,7 @@ nav a {
     max-width: 95%; 
     margin: 0 auto; 
     padding: 20px; 
+    
 } 
 
 article p { 
@@ -49,7 +61,8 @@ article p {
 
 main { 
     flex: 2; 
-
+    display: flex;
+    flex-direction: row;
 } 
 
 article { 
@@ -60,6 +73,7 @@ article {
     background-color: #2C5F2D;
     width: auto;
     height: auto;
+
 } 
 
 aside { 
@@ -67,7 +81,6 @@ aside {
     background-color: #31473A; 
     padding: 10px; 
     color: #edf5e1;
-   
 } 
 
 footer { 
@@ -80,3 +93,283 @@ footer {
 } 
 div{
    margin-left: 1rem;
+   position: absolute;
+   
+   
+}
+@media screen and (width < 1000px) {
+    main{
+        flex-direction: column;
+       
+    }
+}
+
+#atom {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 10px auto;
+  }
+  #nucleus, .orbit, .electron, .orbitTrain, .electronTrain {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: auto;
+  }
+  #nucleus {
+    background: #2196f3;
+    box-shadow: 0 0 15px #2196f3;
+    -webkit-animation: shining 2s infinite linear;
+    -moz-animation: shining 2s infinite linear;
+    -ms-animation: shining 2s infinite linear;
+    -o-animation: shining 2s infinite linear;
+    animation: shining 2s infinite linear;
+  }
+  .orbit:before {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border: 0.5px solid rgb(255, 255, 255);
+    border-radius: 50%;
+  }
+  .orbit {
+    width: 200px;
+    height: 200px;
+    border: 0;
+    transform-style: preserve-3d;
+    -webkit-animation: orbitSpecial 1.5s infinite linear;
+    -moz-animation: orbitSpecial 1.5s infinite linear;
+    -ms-animation: orbitSpecial 1.5s infinite linear;
+    -o-animation: orbitSpecial 1.5s infinite linear;
+    animation: orbitSpecial 1.5s infinite linear;
+  }
+  .orbit .electron {
+    position: relative;
+    top: 95px;
+    width: 20px;
+    height: 20px;
+    background: #ff9800;
+    box-shadow: 0 0 15px #ff9800;
+    border-radius: 50%;
+    transform: translateX(100px);
+    -webkit-animation: electronAnimation 1.5s infinite linear;
+    -moz-animation: electronAnimation 1.5s infinite linear;
+    -ms-animation: electronAnimation 1.5s infinite linear;
+    -o-animation: electronAnimation 1.5s infinite linear;
+    animation: electronAnimation 1.5s infinite linear;
+  }
+  .orbit:nth-child(4) {
+    transform: rotateY(65deg) rotateX(5deg);
+    animation-delay: -1s;
+  }
+  .orbit:nth-child(4) .electron {
+    animation-delay: -1s;
+  }
+  .orbit:nth-child(2) {
+    transform: rotateY(65deg) rotateX(-54deg);
+    animation-delay: -1s;
+    animation-duration: 1s;
+  }
+  .orbit:nth-child(2) .electron {
+    animation-duration: 1s;
+  }
+  .orbit:nth-child(3) {
+    transform: rotateY(65deg) rotateX(54deg);
+  }
+  @-webkit-keyframes electronAnimation {
+    0% {
+      transform: rotateZ(0deg) translateX(100px) rotateZ(0deg) rotateY(-65deg);
+   }
+    100% {
+      transform: rotateZ(360deg) translateX(100px) rotateZ(-360deg) rotateY(-65deg);
+   }
+  }
+  @-moz-keyframes electronAnimation {
+    0% {
+      transform: rotateZ(0deg) translateX(100px) rotateZ(0deg) rotateY(-65deg);
+   }
+    100% {
+      transform: rotateZ(360deg) translateX(100px) rotateZ(-360deg) rotateY(-65deg);
+   }
+  }
+  @-ms-keyframes electronAnimation {
+    0% {
+      transform: rotateZ(0deg) translateX(100px) rotateZ(0deg) rotateY(-65deg);
+   }
+    100% {
+      transform: rotateZ(360deg) translateX(100px) rotateZ(-360deg) rotateY(-65deg);
+   }
+  }
+  @-o-keyframes electronAnimation {
+    0% {
+      transform: rotateZ(0deg) translateX(100px) rotateZ(0deg) rotateY(-65deg);
+   }
+    100% {
+      transform: rotateZ(360deg) translateX(100px) rotateZ(-360deg) rotateY(-65deg);
+   }
+  }
+  @keyframes electronAnimation {
+    0% {
+      transform: rotateZ(0deg) translateX(100px) rotateZ(0deg) rotateY(-65deg);
+   }
+    100% {
+      transform: rotateZ(360deg) translateX(100px) rotateZ(-360deg) rotateY(-65deg);
+   }
+  }
+  @-webkit-keyframes orbitSpecial {
+    0% {
+      border: 0;
+      border-top: 1px solid rgb(255, 255, 255);
+   }
+    35% {
+      border: 0;
+      border-right: 1px solid rgb(255, 255, 255);
+   }
+    70% {
+      border: 0;
+      border-bottom: 1px solid rgb(255, 255, 255);
+   }
+    100% {
+      border: 0;
+      border-left: 1px solid rgb(255, 255, 255);
+   }
+  }
+  @-moz-keyframes orbitSpecial {
+    0% {
+      border: 0;
+      border-top: 1px solid rgb(255, 255, 255);
+   }
+    35% {
+      border: 0;
+      border-right: 1px solid rgb(255, 255, 255);
+   }
+    70% {
+      border: 0;
+      border-bottom: 1px solid rgb(255, 255, 255);
+   }
+    100% {
+      border: 0;
+      border-left: 1px solid rgb(255, 255, 255);
+   }
+  }
+  @-ms-keyframes orbitSpecial {
+    0% {
+      border: 0;
+      border-top: 1px solid rgb(255, 255, 255);
+   }
+    35% {
+      border: 0;
+      border-right: 1px solid rgb(255, 255, 255);
+   }
+    70% {
+      border: 0;
+      border-bottom: 1px solid rgb(255, 255, 255);
+   }
+    100% {
+      border: 0;
+      border-left: 1px solid rgb(255, 255, 255);
+   }
+  }
+  @-o-keyframes orbitSpecial {
+    0% {
+      border: 0;
+      border-top: 1px solid rgb(255, 255, 255);
+   }
+    35% {
+      border: 0;
+      border-right: 1px solid rgb(255, 255, 255);
+   }
+    70% {
+      border: 0;
+      border-bottom: 1px solid rgb(255, 255, 255);
+   }
+    100% {
+      border: 0;
+      border-left: 1px solid rgb(255, 255, 255);
+   }
+  }
+  @keyframes orbitSpecial {
+    0% {
+      border: 0;
+      border-top: 1px solid rgb(255, 255, 255);
+   }
+    35% {
+      border: 0;
+      border-right: 1px solid rgb(255, 255, 255);
+   }
+    70% {
+      border: 0;
+      border-bottom: 1px solid rgb(255, 255, 255);
+   }
+    100% {
+      border: 0;
+      border-left: 1px solid rgb(255, 255, 255);
+   }
+  }
+  @-webkit-keyframes shining {
+    0% {
+      box-shadow: 0 0 0 transparent;
+   }
+    50% {
+      box-shadow: 0 0 40px #2196f3;
+   }
+    100% {
+      box-shadow: 0 0 0 transparent;
+   }
+  }
+  @-moz-keyframes shining {
+    0% {
+      box-shadow: 0 0 0 transparent;
+   }
+    50% {
+      box-shadow: 0 0 40px #2196f3;
+   }
+    100% {
+      box-shadow: 0 0 0 transparent;
+   }
+  }
+  @-ms-keyframes shining {
+    0% {
+      box-shadow: 0 0 0 transparent;
+   }
+    50% {
+      box-shadow: 0 0 40px #2196f3;
+   }
+    100% {
+      box-shadow: 0 0 0 transparent;
+   }
+  }
+  @-o-keyframes shining {
+    0% {
+      box-shadow: 0 0 0 transparent;
+   }
+    50% {
+      box-shadow: 0 0 40px #2196f3;
+   }
+    100% {
+      box-shadow: 0 0 0 transparent;
+   }
+  }
+  @keyframes shining {
+    0% {
+      box-shadow: 0 0 0 transparent;
+   }
+    50% {
+      box-shadow: 0 0 40px #2196f3;
+   }
+    100% {
+      box-shadow: 0 0 0 transparent;
+   }
+  }
+
+  

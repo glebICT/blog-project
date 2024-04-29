@@ -15,6 +15,7 @@ header {
     margin: 20px auto;
     padding: 0 20px;
     background-color: #fff;
+ 
 }
 h1 {
     color: #333;
@@ -40,4 +41,22 @@ p {
 }
 .nav-buttons button:hover {
     background-color: #555;
+}
+h3 {
+    color: white;
+    font-size: 30px;
+}
+.students_header {
+    justify-content: space-between;
+}
+#main-info{
+    display: flex;
+    flex-direction: column;
+   
+    flex-wrap: wrap;
+    a{
+        flex: 1 0 21%; /* explanation below */
+        margin: 5px;
+        font-size: larger;
+    }
 }

@@ -1,14 +1,27 @@
 :root{
---purple:#7942BD;
---green:#42BD79;
---pink:#BD7942;
---black:#313131;
+--purple:#c495fd;
+--green:#66c390;
+--pink:#c18e64;
+--black:#343434;
 --font:Candara;
 --size: 25px;
 }
 body{
     margin: 0;
-    background-color:var(--purple)
+    background: linear-gradient(45deg, var(--purple), #a69efd, #b290f1, #f18afa);
+    animation: body 3s infinite;
+    background-size: 200%;
+}
+@keyframes body {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 header{
     background:var(--green);
@@ -58,7 +71,7 @@ a:visited{
     font-family:var(--font);
 }
 article{
-    border: 1px solid gray;
+    border: none;
     display: flex;
     padding: 1rem;
     background-color: var(--green);
@@ -87,3 +100,29 @@ h2{
         flex-direction: column;
     }
 }
+.imglink{
+    position: relative;
+  width: 100%;
+}
+
+  .buttonlink {
+    position: absolute;
+    width: 100%;
+    left:0;
+    top: 65%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .5s ease;
+  }
+  .buttonlink a {
+    padding: 15px 40px; 
+    text-align: center;
+    background: #f6f6f5; 
+    color: rgb(9, 9, 9); 
+    border: 1px solid #f6f6f5; 
+    z-index: 1; 
+  }
+  .imglink:hover .buttonlink{
+    opacity:1;
+  }
+  
