@@ -1,0 +1,46 @@
+header {
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 95%;
+    height: 100%;
+}
+
+body {
+    background-color: rgb(67, 4, 4);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: darkorange;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+}
+
+.abilities-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.abilities_text {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.head-img {
+    width: 800px;
+    height: 450px;
+}

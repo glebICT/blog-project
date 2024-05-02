@@ -10,13 +10,7 @@ header {
     padding: 20px;
     text-align: center;
 }
-.container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 0 20px;
-    background-color: #fff;
- 
-}
+
 h1 {
     color: #333;
 }
@@ -48,15 +42,4 @@ h3 {
 }
 .students_header {
     justify-content: space-between;
-}
-#main-info{
-    display: flex;
-    flex-direction: column;
-   
-    flex-wrap: wrap;
-    a{
-        flex: 1 0 21%; /* explanation below */
-        margin: 5px;
-        font-size: larger;
-    }
 }

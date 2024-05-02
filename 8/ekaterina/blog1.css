@@ -3,7 +3,7 @@ body{
     background: rgb(217, 212, 201);
 }
 header,footer{
-    background: #999;
+    background: #e0c23d;
     display: flex;
     justify-content: space-between;
     align-items: center;
