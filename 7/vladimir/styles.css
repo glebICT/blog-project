@@ -1,0 +1,38 @@
+header {
+    width: 400PX;
+    background: rgb(189, 45, 255);
+}
+main{
+    display: flex;
+
+}
+article h2 {
+    background: rgb(255, 255, 255);
+    /* width: 150px; */
+}
+
+.qwe {
+    font-size: 8    px;
+}
+p{
+    color: gold;
+}
+h1{
+    color: goldenrod;
+}
+h1{
+    background: rgb(51, 77, 205);
+}
+p{
+    background: rgb(66, 25, 201);
+}
+h2{
+    background: forestgreen;
+}
+h1{
+    background: forestgreen;
+    color: rgb(220, 197, 65);
+}
+picture{
+   display: block
+}
