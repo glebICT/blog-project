@@ -1,54 +1,240 @@
 nav a:first-child {
     color: rgb(37, 52, 117);
-    
+
+}
+
+body {
+    border: rgb(28, 28, 73) solid 56px;
 }
 
 header {
-    background-image: url('honkgongeifwwij.jpg');
-    height: 300px;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    text-align: center;
-    h1{
-        color: wheat;
-    font-size: 7rem;
-    background-color: rgba(0, 0, 0, 0.5);
-    margin: 0;
+
+    .bg {
+        background-image: url('honkgongeifwwij.jpg');
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        text-align: center;
+        transition: all .5s ease-in-out;
+        animation: zoomin 10s ease-in infinite;
+
     }
-    
+
+    overflow: hidden;
+
+    h1 {
+        opacity: 0;
+        color: wheat;
+        font-size: 7rem;
+        background-color: rgba(0, 0, 0, 0.5);
+        margin: 0;
+        transition: .9s;
+        &:hover {
+            opacity: 1;
+        }
+
+    }
+
+
+
+
 }
-img{
+
+/* header:hover h1 {
+    visibility: visible;
+
+
+} */
+
+img {
     width: 300px
 }
-a{
+
+a {
     color: black;
 }
-main{
+
+main {
     display: flex;
     flex-direction: row;
     font-size: 20px;
     margin-left: 175px;
-    
+
 }
-article{
+
+article {
     display: flex;
     flex-direction: column;
-    margin-left:68px;
+    margin-left: 68px;
     width: 300px;
-    
+    #hide {
+        display: inline-block;
+        max-width: 0%;
+        vertical-align: bottom;
+        overflow: hidden;
+        white-space: nowrap;
+        transition: max-width 1s ease-in-out;
+      }
+      
+    h2 {
+        font-size: xx-large;
+        background-color: antiquewhite;
+        cursor: default;
+        
+    }
+    h2:hover #hide {
+        max-width: 100%;
+
+    }
 }
-h2{
-    font-size: xx-large;
+article {
+    display: flex;
+    flex-direction: column;
+    margin-left: 68px;
+    width: 300px;
+    #hide {
+        display: inline-block;
+        max-width: 0%;
+        vertical-align: bottom;
+        overflow: hidden;
+        white-space: nowrap;
+        transition: max-width 1s ease-in-out;
+      }
+      
+    h3 {
+        font-size: xx-large;
+        background-color: antiquewhite;
+        cursor: default;
+        
+    }
+    h3:hover #hide {
+        max-width: 100%;
+
+    }
 }
-h3{
-    font-size: xx-large;
+article {
+    display: flex;
+    flex-direction: column;
+    margin-left: 68px;
+    width: 300px;
+    #hide {
+        display: inline-block;
+        max-width: 0%;
+        vertical-align: bottom;
+        overflow: hidden;
+        white-space: nowrap;
+        transition: max-width 1s ease-in-out;
+      }
+      
+    h4 {
+        font-size: xx-large;
+        background-color: antiquewhite;
+        cursor: default;
+        
+    }
+    h4:hover #hide {
+        max-width: 100%;
+
+    }
 }
-h4{
-    font-size: xx-large;
+article {
+    display: flex;
+    flex-direction: column;
+    margin-left: 68px;
+    width: 300px;
+    #hide {
+        display: inline-block;
+        max-width: 0%;
+        vertical-align: bottom;
+        overflow: hidden;
+        white-space: nowrap;
+        transition: max-width 1s ease-in-out;
+      }
+      
+    h5 {
+        font-size: xx-large;
+        background-color: antiquewhite;
+        cursor: default;
+        
+    }
+    h5:hover #hide {
+        max-width: 100%;
+
+    }
 }
-h5{
-    font-size: xx-large;
-}
-body{
+
+body {
     background: rgb(255, 255, 255);
 }
+
+@media screen and (width < 1000px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+footer {
+    background: gray;
+}
+
+@-webkit-keyframes zoomin {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes zoomin {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/*End of Zoom in Keyframes */
+
+/* Zoom out Keyframes */
+@-webkit-keyframes zoomout {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.67);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes zoomout {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.67);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/*End of Zoom out Keyframes */
