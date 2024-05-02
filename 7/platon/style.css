@@ -1,6 +1,6 @@
 header img{
- width: 500px;
- height:100;
+ width: 200px;
+ height:300;
 
 
     
@@ -11,13 +11,23 @@ display: flex;
 }
 
 article{
+    display: flex;
+    width: 600px;
+    margin: left;
+    flex-direction: row;
+    align-items: flex-start;
+    div{
+        width: 400px;
+    }
     img{
-     width: 200px;
+        width: 250px;
+        margin-right: auto;
+  
     }
 }
 
 h1{
-    font-style: italic;
+ font-style: Italic;
 }
 
     
@@ -25,3 +35,21 @@ h1{
 .motto{
     font-size: 50px;
 }
+.motto{
+    font-style: oblique;
+}
+
+    
+p{
+    font-size: 20px;
+    font-style: italic;
+}
+h3{
+    font-size: 30px;
+    font-style: italic;
+}
+h4 img{
+width: 400px;
+}
+
+
