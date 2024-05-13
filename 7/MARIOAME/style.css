@@ -2,19 +2,26 @@
     font-family: myFirstFont;
     src: url('fonts/BLKCHCRY.TTF');
 }
+@font-face {
+    font-family: myseconfFont;
+    src: url('fonts/MetalGothicDemoVersionRegular-WyB9A.ttf');
+}
 header {
     background-color: rgb(0, 0, 0);
     font-size: 3rem;
 
-width:900;
-height: 700;
-background-size: cover;
-
+    width: 900;
+    height: auto;
+    background-size: cover;
+    nav{
+        a {
+            font-size: large;
+            color: rgb(13, 173, 13);
+        }
+    }
 
 }
-header {
-  
-}
+
 
 body {
     background-color: rgb(0, 0, 0);
@@ -25,10 +32,10 @@ header div {
 }
 
 main {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     gap: 100px;
-    font-size: larger;
+    font-size: x-large;
 }
 
 #logo {
@@ -54,15 +61,20 @@ main {
     }
 }
 
-p{
+h2 {
     font-family: myFirstFont;
 }
+
 article {
     display: flex;
-color: rgb(60, 218, 60);
+    color: rgb(60, 218, 60);
+
     img {
         max-height: 560px;
         min-width: 360px;
-        
+
+    }
+    p{
+        font-family: myseconfFont;
     }
 }

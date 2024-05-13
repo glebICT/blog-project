@@ -1,13 +1,93 @@
+.post{
+  width: 1000px;
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+}
+@media (width < 800px) {
+  .post{
+    width: 400px;
+    flex-direction: column;
+  }
+}
+.color{
+  color: #000;
+  background-color: rgb(230, 204, 133);
+}
+.color2{
+  color: #000;
+  background-color: rgb(127, 202, 65);
+}
+.color3{
+  color: #000;
+  background-color: rgb(189, 172, 128);
+}
+.color4{
+  color: #000;
+  background-color: rgb(98, 170, 56);
+}
+.color5{
+  color: #000;
+  background-color: rgb(236, 178, 16);
+}
+.color6{
+  color: #000;
+  background-color: rgb(131, 174, 187);
+}
+.color7{
+  color: #000;
+  background-color: rgb(180, 169, 136);
+}
+.Jungwon{
+  width: 95px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  background-color: rgb(194, 193, 191);
+}
+.Sunoo{
+  width: 60px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  background-color: rgb(194, 193, 191);
+}
+.Niki{
+  width: 46px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  background-color: rgb(194, 193, 191);
+}
+.Jake{
+  width: 45px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  background-color: rgb(194, 193, 191);
+}
+.Jay{
+  width: 35px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  background-color: rgb(194, 193, 191);
+}
 body{
     font-size:14px;
     font-family: sans-serif;
     color:#333;
-    background:#dbdbdb;
+    background:hsl(0, 0%, 86%);
     overflow-x:hidden
+  }
+  header{
+    font-size:20px;
+    font-family: sans-serif;
+    color:#000000;
   }
   a{
     text-decoration:none;
-    color:#dfd3d3
+    color:#ffffff
   }
   nav{
     position:fixed;
@@ -26,7 +106,7 @@ body{
     transition:all 0.4s
   }
   nav a:hover{
-     background: rgba(216, 192, 192, 0.6);
+     background: rgba(211, 211, 211, 0.6);
      color: #333;
   }
   nav:before{

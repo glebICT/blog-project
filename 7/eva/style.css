@@ -1,4 +1,13 @@
+header{
+    border: 5px solid rgb(44, 59, 59);
+}
 body{
     color: rgb(59, 59, 59);
     text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+article{
+    width: 500px;
 }
