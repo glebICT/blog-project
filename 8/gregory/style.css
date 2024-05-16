@@ -90,6 +90,7 @@ footer {
     position: fixed; 
     bottom: 0; 
     width: 100%; 
+    
 } 
 div{
    margin-left: 1rem;
@@ -97,7 +98,7 @@ div{
    
    
 }
-@media screen and (width < 1000px) {
+@media screen and (width < 2250px) {
     main{
         flex-direction: column;
        
@@ -370,6 +371,12 @@ div{
     100% {
       box-shadow: 0 0 0 transparent;
    }
+  }
+
+  a{
+    color: #edf5e1;
+    font-size: 1rem;
+    
   }
 
   
