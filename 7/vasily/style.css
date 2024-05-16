@@ -1,4 +1,25 @@
-body{
-    background: rgb(99, 207, 66);
-    border: 10px green;
+:root{
+    --greendota: rgb(120, 224, 55);
+}
+header{
+    background-color: var(--greendota);
+    font-size:xx-large;
+}
+article{
+    background-color: rgb(155, 242, 100);
+    font-size: x-large;
+    font-style: inherit;
+    border-radius: 5px;
+    p, dl{
+        color: rgb(17, 47, 7);
+    }
+
+}
+hp{
+    background-color: rgb(13, 255, 0);
+    border-radius: 3px;
+}
+mn{
+    background-color: rgb(54, 131, 255);
+    border-radius: 3px;
 }
