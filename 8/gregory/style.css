@@ -90,7 +90,6 @@ footer {
     position: fixed; 
     bottom: 0; 
     width: 100%; 
-    
 } 
 div{
    margin-left: 1rem;
@@ -98,11 +97,11 @@ div{
    
    
 }
-@media screen and (width < 2250px) {
-    main{
-        flex-direction: column;
-       
-    }
+@media screen and (width < 3225px) {
+  main{
+      flex-direction: column;
+     
+  }
 }
 
 #atom {
@@ -372,11 +371,19 @@ div{
       box-shadow: 0 0 0 transparent;
    }
   }
-
+  .res{
+    
+      width: 100%;
+      height: auto;
+    }
+  .res1{
+    
+      width: 100%;
+      height: auto;
+    
+  }
   a{
     color: #edf5e1;
-    font-size: 1rem;
-    
   }
 
   
