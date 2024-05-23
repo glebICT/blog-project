@@ -1,0 +1,24 @@
+header{
+    padding: 1rem;
+    background: rgb(140, 181, 228);
+}
+main{
+    display: flex;
+    width: 600px;
+    margin: auto;
+    flex-direction: column;
+    article{
+        border: 100px solid #a8c7eb;
+    }
+}
+@media (width < 800px) {
+    header{
+        background: rgb(106, 119, 233);
+    }
+}
+@media (width < 800px) {
+    main{
+        background-color: #a8c7eb;
+    }
+    
+}

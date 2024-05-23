@@ -1,3 +1,5 @@
+
+
 nav a:first-child {
     color: rgb(37, 52, 117);
 
@@ -5,7 +7,10 @@ nav a:first-child {
 
 body {
     border: rgb(28, 28, 73) solid 56px;
+    background-color: aliceblue;
 }
+
+
 
 header {
 
@@ -29,6 +34,7 @@ header {
         background-color: rgba(0, 0, 0, 0.5);
         margin: 0;
         transition: .9s;
+
         &:hover {
             opacity: 1;
         }
@@ -60,117 +66,103 @@ main {
     font-size: 20px;
     margin-left: 175px;
 
-}
 
-article {
-    display: flex;
-    flex-direction: column;
-    margin-left: 68px;
-    width: 300px;
-    #hide {
-        display: inline-block;
-        max-width: 0%;
-        vertical-align: bottom;
-        overflow: hidden;
-        white-space: nowrap;
-        transition: max-width 1s ease-in-out;
-      }
-      
-    h2 {
-        font-size: xx-large;
-        background-color: antiquewhite;
-        cursor: default;
+    article{
+        display: flex;
+        flex-direction: column;
+        margin-left: 48px;
+        width: 300px;
+    
+        #hide {
+            display: inline-block;
+            max-width: 0%;
+            vertical-align: bottom;
+            overflow: hidden;
+            white-space: nowrap;
+            transition: max-width 1s ease-in-out;
+        }
+        h2 {
+            font-size: xx-large;
+            background-color: antiquewhite;
+            cursor: default;
+    
+        }
+    
+        h2:hover #hide {
+            max-width: 100%;
+    
+        }
+        h3 {
+            font-size: xx-large;
+            background-color: antiquewhite;
+            cursor: default;
+    
+        }
+
+        article {
+            display: flex;
+            flex-direction: column;
+            margin-left: 0px;
+            width: 300px;
         
-    }
-    h2:hover #hide {
-        max-width: 100%;
-
-    }
-}
-article {
-    display: flex;
-    flex-direction: column;
-    margin-left: 68px;
-    width: 300px;
-    #hide {
-        display: inline-block;
-        max-width: 0%;
-        vertical-align: bottom;
-        overflow: hidden;
-        white-space: nowrap;
-        transition: max-width 1s ease-in-out;
-      }
-      
-    h3 {
-        font-size: xx-large;
-        background-color: antiquewhite;
-        cursor: default;
-        
-    }
-    h3:hover #hide {
-        max-width: 100%;
-
-    }
-}
-article {
-    display: flex;
-    flex-direction: column;
-    margin-left: 68px;
-    width: 300px;
-    #hide {
-        display: inline-block;
-        max-width: 0%;
-        vertical-align: bottom;
-        overflow: hidden;
-        white-space: nowrap;
-        transition: max-width 1s ease-in-out;
-      }
-      
-    h4 {
-        font-size: xx-large;
-        background-color: antiquewhite;
-        cursor: default;
-        
-    }
-    h4:hover #hide {
-        max-width: 100%;
-
+            #hide {
+                display: inline-block;
+                max-width: 0%;
+                vertical-align: bottom;
+                overflow: hidden;
+                white-space: nowrap;
+                transition: max-width 1s ease-in-out;
+            }
+        }
+    
+        h3:hover #hide {
+            max-width: 100%;
+    
+        }
+    
+        h4 {
+            font-size: xx-large;
+            background-color: antiquewhite;
+            cursor: default;
+    
+        }
+    
+        h4:hover #hide {
+            max-width: 100%;
+    
+        }
+    
+        h5 {
+            font-size: xx-large;
+            background-color: antiquewhite;
+            cursor: default;
+    
+        }
+    
+        h5:hover #hide {
+            max-width: 100%;
+    
+        }
     }
 }
-article {
-    display: flex;
-    flex-direction: column;
-    margin-left: 68px;
-    width: 300px;
-    #hide {
-        display: inline-block;
-        max-width: 0%;
-        vertical-align: bottom;
-        overflow: hidden;
-        white-space: nowrap;
-        transition: max-width 1s ease-in-out;
-      }
-      
-    h5 {
-        font-size: xx-large;
-        background-color: antiquewhite;
-        cursor: default;
-        
-    }
-    h5:hover #hide {
-        max-width: 100%;
 
-    }
-}
+
+
 
 body {
     background: rgb(255, 255, 255);
+
 }
 
-@media screen and (width < 1000px) {
+@media screen and (width < 1900px) {
     main {
         display: flex;
         flex-direction: column;
+        margin-left: 0;
+
+        article {
+            width: auto;
+        }
     }
 }
 
