@@ -1,3 +1,6 @@
+:root{
+  --name-bg: rgb(194, 193, 191);
+}
 .post{
   width: 1000px;
   display: flex;
@@ -43,35 +46,35 @@
   display: flex;
   margin: auto;
   flex-direction: column;
-  background-color: rgb(194, 193, 191);
+  background-color: var(--name-bg);
 }
 .Sunoo{
   width: 60px;
   display: flex;
   margin: auto;
   flex-direction: column;
-  background-color: rgb(194, 193, 191);
+  background-color: var(--name-bg);
 }
 .Niki{
   width: 46px;
   display: flex;
   margin: auto;
   flex-direction: column;
-  background-color: rgb(194, 193, 191);
+  background-color: var(--name-bg);
 }
 .Jake{
   width: 45px;
   display: flex;
   margin: auto;
   flex-direction: column;
-  background-color: rgb(194, 193, 191);
+  background-color: var(--name-bg);
 }
 .Jay{
   width: 35px;
   display: flex;
   margin: auto;
   flex-direction: column;
-  background-color: rgb(194, 193, 191);
+  background-color: var(--name-bg);
 }
 body{
     font-size:14px;
