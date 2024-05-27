@@ -7,7 +7,20 @@ body{
     margin: 0;
     padding: 0;
 }
-
-article{
-    width: 500px;
+main{
+    background: gray;
+    article{
+        background: white;
+        display: flex;
+        width: 800px;
+        margin: auto;
+        flex-direction: column;
+        img{
+            width: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+    }
 }

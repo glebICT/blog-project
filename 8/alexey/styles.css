@@ -1,5 +1,5 @@
 header {
-    background: gray;
+    background: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,20 +8,21 @@ header {
     height: 100%;
 }
 
+h1 {
+    text-shadow: 3px, black;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+
+}
+
 body {
-    background-color: rgb(67, 4, 4);
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin: 0;
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-        background-color: darkorange;
-        display: flex;
-        justify-content: center;
-    }
-}
 
 .head {
     display: flex;
@@ -34,13 +35,44 @@ body {
     justify-content: center;
 }
 
+.abilities-ico {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
 .abilities_text {
     display: flex;
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 
 .head-img {
     width: 800px;
     height: 450px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(116, 0, 0);
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+.atribute_ico {
+    width: 60px;
+    height: 60px;
+}
+
+.strength {
+    background: linear-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.733) 100%, rgb(0, 0, 0) 100%);
+    background-color: rgb(100, 0, 0);
+}
+
+.agility {
+    background: linear-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.733) 100%, rgb(0, 0, 0) 100%);
+    background-color: rgb(35, 130, 41);
 }
