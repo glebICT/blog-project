@@ -1,74 +1,475 @@
-html{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    --my-gray: rgb(153, 182, 4);
-    --my-layout: flex;
+.Vista {
+    background-image: url(./index_files/background-aero3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 3000px;
 }
-header {
-    background-color: gray;
-    text-align: right;
+
+.NT {
+    background-image: url(./WindowsNT_files/background-nt.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100dvh;
+}
+
+.header_vista1 {
+    background-color: rgba(130, 153, 116, 0.11);
     display: flex;
     justify-content: space-between;
+    border-radius: 10px;
+    text-align: left;
+    position: sticky;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.164));
+    backdrop-filter: blur(7px);
 }
-.logo img{
-    width: 65px;
-}
-.mydiv {
+
+p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    background-color: rgb(228, 227, 227);
 }
-.nodiv {
-    text-align: left;
+
+h1 {
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-article{
-    text-align: left;
+
+.div1 {
+    background-color: rgba(255, 255, 255, 0);
     display: flex;
-    justify-content: space-between;
+    border-radius: 5px;
+    width: 150dvb;
+    text-align: left;
+    margin: 1px;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.205));
+    backdrop-filter: blur(7px);
+    outline: ridge rgba(0, 0, 0, 0.212);
 }
+
+.div_1_for_dummies {
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    border-radius: 5px;
+    width: 150dvb;
+    text-align: left;
+    margin: 1px;
+    backdrop-filter: blur(2px);
+    outline: ridge rgba(157, 157, 157, 0.212);
+}
+
+p10 {
+    color: white;
+    margin: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.379);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.h11 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 500px;
+
+}
+
+.d {
+    font-size: 20px;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: -15px;
+    margin-top: 0px;
+}
+p15 {
+    margin-right: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+p16 {
+    font-size: 20px;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-left: 40%;
+}
+
+.div2 {
+    background-color: rgba(67, 89, 92, 0.171);
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    width: 150dvb;
+    text-align: left;
+    margin-left: 15px;
+    backdrop-filter: blur(7px);
+    outline: ridge rgba(0, 0, 0, 0.212);
+}
+
+.aero1 {
+    background-color: rgba(255, 255, 255, 0.123);
+    margin: 3px;
+    margin-top: 5%;
+    height: fit-content;
+    border-radius: 3px;
+}
+
+.tab_icons {
+    margin-right: 20px;
+    outline: ridge rgba(59, 59, 59, 0.062);
+    float: right;
+    height: 20px;
+    justify-content: space-between;
+    border-radius: 1px;
+    text-align: center;
+    display: flex;
+}
+
+.icon {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0), #ffffff59);
+    width: 30px;
+    outline: ridge rgba(59, 59, 59, 0.048);
+    text-align: center;
+    display: flex;
+}
+
+.iconred {
+    background-image: linear-gradient(0deg, rgba(132, 0, 0, 0.608), #fd30309f);
+    width: 50px;
+    outline: ridge rgba(153, 142, 142, 0.062);
+    text-align: center;
+    display: flex;
+}
+
+.within_aero {
+    background-image: linear-gradient(180deg, #ffffff2a, transparent);
+    position: absolute;
+    margin-bottom: auto;
+    width: 100%;
+    height: 9%;
+    border-radius: 4px;
+}
+
+.out {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+p2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+
 p3 {
-    font-style:italic;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5px;
 }
-.thediv {
-    text-align: left;
+
+h3 {
+    opacity: 0;
 }
-.thel {
-    text-align: left;
-    background-color: rgb(198, 197, 197);
-}
-.thehdiv {
-    background-color: gray;
+
+h4 {
     text-align: center;
-    font-style: italic;
+    color: white;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.589);
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.theH {
     display: flex;
-    margin: auto;
-    width: 1000px;
 }
-.help {
-    background-color: white;
+
+.windows_slides {
+    max-height: 35dvh;
+    max-width: 380dvh;
 }
-.second {
-    background-color: gray;
+
+.NT1 {
+    justify-content: space-between;
+    display: block;
+
+}
+
+.header_nt1 {
+    background-color: rgba(0, 125, 228, 0.11);
+    display: flex;
+    justify-content: space-between;
     text-align: center;
-    justify-content: center;
 }
-.gallery {
-    background-color: rgb(162, 162, 162);
-    justify-content: center;
+
+.NT2 {
+    background-color: rgba(0, 125, 228, 0.11);
+    display: flex;
 }
-.boat_sunset {
-    display: var(--my-layout);
-    margin-left: auto;
-    width: 500px;
-    background-color: var(--my-gray);
+
+.ntlogo {
+    height: 70px;
 }
-.gamedev {
-    display: var(--my-layout);
+
+.win10logo {
+    height: 70px;
+}
+
+.listNT {
+    background-color: rgba(0, 125, 228, 0.11);
+    position: absolute;
+    width: 300px;
+    height: auto;
+    margin-top: 15px;
+}
+
+.ntsmth {
+    margin: 15px;
+    background-color: rgba(0, 125, 228, 0.11);
+}
+
+h5 {
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.big-logo-png {
+    margin: 290px;
+    width: 900px;
+}
+
+.p2 {
+    font-size: 10px;
+}
+
+.minesweeper_vista {
+    width: 30%;
+    height: 20%;
+}
+
+.header_vista2 {
+    justify-content: space-between;
+    display: flex;
+}
+
+.header_vista2 img {
+    display: flex;
+}
+
+.space {
+    justify-content: space-between;
+}
+
+.vista_sidebar1 {
+    width: auto;
+    height: 100dvh;
+    position: relative;
+    width: 20%;
+    float: right;
+    margin-left: 5%;
+    backdrop-filter: blur(10px);
+    height: fit-content;
+    border-radius: 3px;
+    outline: ridge rgba(0, 0, 0, 0.062);
+}
+
+.vista_sidebar2 {
+    margin: 10px;
+    width: auto;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.048);
+}
+
+h6 {
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    text-shadow: 2px 2px 2px black;
+}
+
+.related_vista {
+    text-align: left;
+    height: 300px;
+    display: block;
+    margin-left: 20px;
+}
+
+.vbox {
+    height: 30%;
+    width: 100%;
+    display: flex;
+}
+
+.vbox img {
+    height: 40%;
+    width: 100%;
+}
+
+.header_lower {
     margin: auto;
-    width: 200px;
-    background-color: var(--my-gray);
+    justify-content: space-between;
+    width: 90%;
 }
-.youtube {
-    display: var(--my-layout);
-    margin-top: auto;
-    width: 890px;
-    background-color: var(--my-gray);
+
+.vista_lower {
+    margin-top: 60px;
+    height: 60dvh;
+    justify-content: space-between;
+    background-color: rgba(37, 49, 50, 0.171);
+    backdrop-filter: blur(5px);
+    outline: ridge rgba(0, 0, 0, 0.212);
+    border-radius: 3px;
+}
+
+.firmware {
+    width: 99.5%;
+    height: auto;
+    margin: 3px;
+    background-color: rgba(255, 255, 255, 0.123);
+    position: absolute;
+    outline: ridge rgba(0, 0, 0, 0.212);
+}
+
+.header_firmware {
+    justify-content: space-between;
+    display: flex;
+}
+
+.application {
+    width: 15%;
+    height: 200px;
+    background-color: rgba(35, 35, 35, 0.123);
+    margin: 10px;
+    outline: ridge rgba(0, 0, 0, 0.212);
+}
+
+.application_header {
+    background-color: rgba(240, 248, 255, 0);
+}
+
+p4 {
+    text-align: left;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin: 5px;
+    text-overflow: clip;
+    display: flex;
+}
+
+.appicon img {
+    width: 70px;
+    margin: auto;
+}
+
+.appicon {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.vista_physbox img {
+    width: 30%;
+    height: fit-content;
+    position: relative;
+    display: flex;
+}
+
+.vista_physbox {
+    margin: 3%;
+    margin-top: 150px;
+    height: 248px;
+    display: block;
+}
+
+.physbox_inner {
+    float: right;
+    position: relative;
+    display: block;
+    height: fit-content;
+    margin: auto;
+    width: 60%;
+    background-color: rgba(81, 81, 81, 0.082);
+    backdrop-filter: blur(5px);
+    outline: ridge rgba(0, 0, 0, 0.062);
+}
+
+.vistaver {
+    margin: 5px;
+    width: auto;
+    display: block;
+    background-color: rgba(181, 181, 181, 0.104);
+    border-radius: 3px;
+    outline: ridge rgba(0, 0, 0, 0.062);
+
+}
+
+.imagess img {
+    width: 35%;
+    margin-top: 100px;
+    position: absolute;
+    margin-right: 80px;
+    margin-left: -50px;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    margin-top: 40%;
+    background-color: rgba(81, 81, 81, 0.082);
+    backdrop-filter: blur(5px);
+    outline: ridge rgba(0, 0, 0, 0.062);
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+}
+
+footer img {
+    width: 100px;
+    margin: 20px;
+}
+
+.lower_footer {
+    background-color: rgba(181, 181, 181, 0.104);
+    width: 40%;
+    margin: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    outline: ridge rgba(0, 0, 0, 0.062);
+    border-radius: 3px;
+}
+
+.lowest_footer {
+    text-align: left;
+    width: 40%;
+    margin: 20px;
+    margin-left: 50dvh;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+}
+
+.down {
+    margin-left: -8px;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgb(0, 0, 0));
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    display: flex;
 }
