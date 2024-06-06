@@ -7,24 +7,27 @@ main{
     flex-direction: column ;
 }
 article{
-    gap: 1rem;
+    gap: 2rem;
     display: flex;
     flex-direction: row-reverse ;
     justify-content: space-between;
     width: 600px;
+    background: #04001C;
+    color: #ffffff;
 }
 article h2 {
-    background: rgb(255, 255, 255);
+    /* background: rgb(255, 255, 255); */
+   
     /* width: 150px; */
 
  
 }
 
-.qwe {
-    font-size: 8    px;
+p {
+    font-size: 23px;
 }
 p{
-    color:  #04001C;
+    color:  #ffffff;
 }
 h1{
     color: rgb(205, 92, 92);
@@ -33,7 +36,7 @@ h1{
     background: rgb(51, 77, 205);
 }
 p{
-    background: #32AA84;
+
 }
 h2{
     background: forestgreen;
@@ -41,6 +44,12 @@ h2{
 h1{
     background: forestgreen;
     color: rgb(220, 197, 65);
+}
+h2{
+  
+}
+h2{
+    background: #04001C;
 }
 picture{
    display: block
