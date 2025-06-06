@@ -1,0 +1,29 @@
+h2{
+    color: black;
+    font-family: "MS PMincho", "MS Mincho", sans-serif;
+}
+
+h1{
+    font-family: "MS PMincho", "MS Mincho", sans-serif;
+
+}
+body{
+    min-height: 800px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+section{
+    background: brown;
+    margin: 18px;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2{
+    font-family: 'Arial Narrow Bold', sans-serif, impact;
+    font-size: 3rem;
+    color: black;
+}

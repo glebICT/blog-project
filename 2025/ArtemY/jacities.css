@@ -1,0 +1,71 @@
+h2{
+    color: black;
+    font-family: "MS PMincho", "MS Mincho", sans-serif;
+}
+
+h1{
+    font-family: "MS PMincho", "MS Mincho", sans-serif;
+
+}
+body{
+    min-height: 1000px;
+}
+main{
+    display: grid;
+    grid-template-columns: 700px 700px;
+    grid-template-rows: 200px 200px 200px;
+    justify-content: center;
+}
+section{
+    background: var(--marine);
+    margin: 18px;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100px;
+
+}
+h2{
+    font-family: 'Arial Narrow Bold', sans-serif, impact;
+    font-size: 3rem;
+    color: black;
+}
+img{
+    width: 190px;
+    
+}
+header{
+    background-color: mediumaquamarine;
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    /* max-width: 900px; */
+}
+body{
+    background-color: gray;    
+}
+#Sea{
+    width: 175px;
+}
+:root{
+    --marine: rgb(139, 222, 208);
+}
+@media (width < 800px) {
+    main{
+        width: auto;
+        grid-template-columns: 700px ;
+    }
+}
+footer{
+    padding: 20px;
+    color:aliceblue;
+    text-align: center;
+}
+#arrow{
+    text-align: center;
+    div{padding: 0px;}
+    p{
+        color:aliceblue;
+    }
+}

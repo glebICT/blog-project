@@ -1,0 +1,101 @@
+h2{
+    color: black;
+    font-family: "MS PMincho", "MS Mincho", sans-serif;
+}
+
+h1{
+    font-family: "MS PMincho", "MS Mincho", sans-serif;
+
+}
+body{
+    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+section{
+    background: var(--marine);
+    margin: 18px;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    align-items: space-between;
+    font-family: Courier;
+    font-size: 0.8rem;
+}
+h2{
+    font-family: 'Arial Narrow Bold', sans-serif, impact;
+    font-size: 3rem;
+    color: black;
+}
+img{
+    width: 190px;
+    
+}
+header{
+    background-color: mediumaquamarine;
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    /* max-width: 900px; */
+}
+body{
+    background-color: gray; 
+    max-width: 3000px;   
+}
+#Sea{
+    width: 175px;
+}
+:root{
+    --marine: rgb(139, 222, 208);
+}
+@media (width < 800px) {
+    main{
+        width: auto;
+        grid-template-columns: 700px ;
+    }
+}
+#subtitle{
+    padding: 9px;
+    height: 30px;
+}
+#tokyo{
+    margin: 0px;
+}
+.tokyo_sights{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: space-between;
+    
+}
+.sight_name{
+    margin: 10px;
+    padding: 10px;
+}
+#shibuya{
+    width: 300px;
+}
+.tower_crossing{
+    flex-direction: row;
+}
+#row{
+    display: flex;
+    flex-direction: row;
+}
+#tokyo_tower{
+    width: 400px;
+    display: flex;
+    align-items: space-between;
+}
+#subtitle{
+    width: 2500px;
+}
+#sky{
+    width: 550px;
+}
